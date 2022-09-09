@@ -10,7 +10,11 @@
  */
 int main(void)
 {
- 	char str;
+	int c;
+	for (c = 48; c <= 57; c++)
+	{
+
+	char str;
 
 	for (str = 'a'; str <= 'z' ; str++)
 		putchar(str);
