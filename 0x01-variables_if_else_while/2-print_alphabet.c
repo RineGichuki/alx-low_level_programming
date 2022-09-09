@@ -3,34 +3,18 @@
 
 /* more headers go there */
 
-
-
 /**
+ * main - Entry point
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
-
+ * Return: Always 0 (Success)
+ */
 int main(void)
-
 {
+ 	char str;
 
-		char str;
-
-
-
-			for (str = 'a'; str <= 'z' ; str++)
-
-						putchar(str);
-
-				putchar('\n');
-
-					return (0);
-
-
+	for (str = 'a'; str <= 'z' ; str++)
+		putchar(str);
+	putchar('\n');
+	return (0);
 
 }
