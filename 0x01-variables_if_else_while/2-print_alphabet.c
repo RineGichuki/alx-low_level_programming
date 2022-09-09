@@ -1,8 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-
-/* more headers go there */
-
 /**
  * main - Entry point
  *
@@ -10,15 +6,15 @@
  */
 int main(void)
 {
-	int c;
-	for (c = 48; c <= 57; c++)
-	{
+char alphabet;
 
-	char str;
+for (alphabet = 'a'; alphabet <= 'z'; alphabet ++)
+{
+putchar(alphabet);
+}
 
-	for (str = 'a'; str <= 'z' ; str++)
-		putchar(str);
-	putchar('\n');
-	return (0);
+putchar('\n');
+
+return (0);
 
 }
