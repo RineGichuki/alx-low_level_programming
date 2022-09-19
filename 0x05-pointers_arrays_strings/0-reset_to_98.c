@@ -4,15 +4,13 @@
 
 /**
 
-*reset_to_98 - resets the value of given integer to 98
+ * reset_to_98 - update value to 98
 
-*@n: parameter
+ *
 
-*Return : nothing
+ * @n: pointer parameter
 
-*/
-
-
+ */
 
 void reset_to_98(int *n)
 
