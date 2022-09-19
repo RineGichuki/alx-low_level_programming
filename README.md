@@ -1,1 +1,1 @@
-M first readme for this repository
+0x05. C - Pointers, arrays and strings
