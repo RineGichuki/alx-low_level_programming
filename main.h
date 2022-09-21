@@ -1,82 +1,27 @@
-#ifndef MAIN_H
+int _putchar(char c);
 
-#define MAIN_H
+int _isupper(int c);
 
+int _isdigit(int c);
 
+int mul(int a, int b);
 
-/**
+void print_numbers(void);
 
-* void prototypes()
+void print_most_numbers(void);
 
-* int prototypes()
+void more_numbers(void);
 
-*/
+void print_line(int n);
 
+void print_diagonal(int n);
 
+void print_square(int size);
 
-void reset_to_98(int *n);
+int main(void);
 
-void swap_int(int *a, int *b);
+void print_triangle(int size);
 
-int _strlen(char *s);
+void print_number(int n);
 
-void _puts(char *str);
-
-void print_rev(char *s);
-
-void rev_string(char *s);
-
-void puts2(char *str);
-
-void puts_half(char *str);
-
-void print_array(int *a, int n);
-
-char *_strcpy(char *dest, char *src);
-
-int _atoi(char *str);
-
-
-
-#endif /*MAIN_H*/#ifndef MAIN_H
-
-#define MAIN_H
-
-
-
-/**
-
-* void prototypes()
-
-* int prototypes()
-
-*/
-
-
-
-void reset_to_98(int *n);
-
-void swap_int(int *a, int *b);
-
-int _strlen(char *s);
-
-void _puts(char *str);
-
-void print_rev(char *s);
-
-void rev_string(char *s);
-
-void puts2(char *str);
-
-void puts_half(char *str);
-
-void print_array(int *a, int n);
-
-char *_strcpy(char *dest, char *src);
-
-int _atoi(char *str);
-
-
-
-#endif /*MAIN_H*/
-
+int prime_numbers(int number);
